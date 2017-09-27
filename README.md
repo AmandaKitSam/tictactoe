@@ -32,3 +32,6 @@ A simple tic tac toe implementation in JavaScript for Project 0 in WDI 23.
 - Use jQuery/CSS to make animations when the user flips the boxes - using a click function
 
 - Keep track of multiple game rounds with a win counter: adds the scores to each players
+
+
+### Please visit https://amandakitsam.github.io/tictactoe/
