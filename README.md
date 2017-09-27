@@ -5,9 +5,11 @@
 A simple tic tac toe implementation in JavaScript for Project 0 in WDI 23.
 
 
-////////////////////////////////////////////////////////////
-////////////////////////////// BY AMANDA SAM
-////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////
+
+////////// BY AMANDA SAM
+
+//////////////////////////////////////////////////
 
 
 - Create the basics from HTML
@@ -34,4 +36,4 @@ A simple tic tac toe implementation in JavaScript for Project 0 in WDI 23.
 - Keep track of multiple game rounds with a win counter: adds the scores to each players
 
 
-### Please visit https://amandakitsam.github.io/tictactoe/
+#### Please visit https://amandakitsam.github.io/tictactoe/
