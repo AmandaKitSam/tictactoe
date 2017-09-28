@@ -1,21 +1,41 @@
-
 body {
   margin: auto;
   font-family: 'Roboto', sans-serif;
   background-image: url('../img/background.jpg');
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
 }
-
 h1 {
   text-align: center;
   text-transform: uppercase;
   padding: 17px;
   margin: 0 auto;
 }
-
 h2 {
   text-align: center;
+}
+
+@media (max-width: 943px) {
+  body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 17px;
+    margin: 0 auto;
+    font-size: 2em;
+  }
 }
 
 .playerX {
@@ -34,7 +54,7 @@ h2 {
   text-align: center;
 }
 
-/*where to keep scores for the players*/
+/* Where to keep scores for the players */
 .scoreOne, .scoreTwo {
     height: 70px;
     width: 100px;
@@ -133,7 +153,6 @@ h2 {
   background-image: url('../img/i.jpg');
   background-size : 100%;
 }
-
 
 .button {
   height: 50px;
