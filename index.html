@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project 0</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
@@ -10,29 +11,25 @@
   </head>
 
   <body>
-
     <h1 class="animated zoomIn">Tic Tac Toe</h1>
     <!-- add animated -->
 
     <h2 class="winner">&nbsp;</h2>
     <!-- &nbsp; stands for "No-break space." -->
-
-
+    <div class="wrapper">
       <!-- At the left side -->
       <div class="playerX">
         <h2>Team Captain</h2>
         <div class="scoreOne"></div>
         <!-- where to keep scores -->
       </div>
-
       <!-- At the right side -->
       <div class="playerY">
         <h2>Team IronMan</h2>
         <div class="scoreTwo"></div>
       </div>
 
-
-    <div class="gameboard">
+      <div class="gameboard">
         <div class = "row">
           <div class = "firstLine box boxZero" id="0"></div>
           <div class = "firstLine box boxOne" id="1"></div>
@@ -50,13 +47,16 @@
           <div class = "thirdLine box boxSeven" id="7"></div>
           <div class = "thirdLine box boxEight" id="8"></div>
         </div>
+
+        <!-- <div class = "button animated tada">Restart</div> -->
+      </div>
+
+      <div class="name">
+        <h3 class="animated zoomIn">By Amanda Sam</h3>
+      </div>
     </div>
 
     <div class = "button animated tada">Restart</div>
-    <!-- add animated -->
-
-    <h3 class="animated zoomIn">By Amanda Sam</h3>
-
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>

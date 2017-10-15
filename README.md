@@ -12,9 +12,11 @@ A simple tic tac toe implementation in JavaScript for Project 0 in WDI 23.
 //////////////////////////////////////////////////
 
 
-- Create the basics from HTML
+- Create the basics in HTML
 
 - Style the page in CSS
+
+- the website is Responsive Web Design
 
 - Think about how to use JS to work with my HTML:
 

@@ -41,18 +41,39 @@ h2 {
 .playerX {
   display: inline-block;
   position: absolute;
-  right: 0px;
-  margin-right: 80%;
+  left: 50%;
   text-align: center;
+  margin-left: -387px;
+  transform: translateX(-50%);
+  margin-top: -120px;
 }
 
 .playerY {
   display: inline-block;
   position: absolute;
-  left: 0px;
-  margin-left: 80%;
+  left: 50%;
   text-align: center;
+  transform: translateX(-50%);
+  margin-left: 382px;
+  margin-top: -120px;
 }
+
+@media (max-width: 943px) {
+  .playerX {
+    transform: none;
+    left: 7px;
+    top: 40px;
+    margin: 0;
+    }
+  .playerY {
+    transform: none;
+    left: auto;
+    right: 7px;
+    top: 40px;
+    margin: 0;
+    }
+}
+
 
 /* Where to keep scores for the players */
 .scoreOne, .scoreTwo {
@@ -69,10 +90,15 @@ h2 {
 }
 
 .gameboard {
-  margin: auto;
-  margin-left: 31%;
-  /*border: 2px solid green;*/
-  /*border - testing*/
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 540px;
+}
+
+.wrappe {
+  min-width: 100%;
 }
 
 .firstLine {
@@ -83,7 +109,7 @@ h2 {
   text-align: center;
 }
 
-.boxZero {
+/*.boxZero {
   border: 3px solid black;
 }
 
@@ -92,6 +118,10 @@ h2 {
 }
 
 .boxTwo {
+  border: 3px solid black;
+}*/
+
+.box {
   border: 3px solid black;
 }
 
@@ -160,16 +190,27 @@ h2 {
   background-color: red;
   color: white;
   text-align: center;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   border-radius: 13px;
   font-size: 20px;
-  margin-top: 2%;
-  padding-top: 2%;
   margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 710px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
 }
 
 
 /*/////////////////////////////////////////*/
+
 /*TESTING ONLY*/
 /*x & y turn to colours*/
 /*.x {
@@ -179,10 +220,6 @@ h2 {
 .y {
   background-color: green;
 }*/
-
-
-
-
 
 
 /*/////////////////////////////////////////*/
